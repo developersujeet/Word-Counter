@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282c34; /* Dark background for a modern look */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #61dafb; /* Light blue color for the heading */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#input {
+    height: 10rem;
+    width: 90%;
+    max-width: 25rem;
+    font-size: 1.25rem; 
+    padding: 1rem; /* Adequate padding for comfort */
+    border-radius: 10px; /* Rounded corners */
+    outline: none;
+    border: 2px solid #61dafb; /* Blue border */
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#input:focus {
+    border-color: #21a1f1; /* Brighter blue on focus */
+    box-shadow: 0 4px 20px rgba(33, 162, 241, 0.5);
+}
+
+p {
+    font-size: 1.5rem; 
+    margin-top: 1rem;
+    color: #ffffff; /* White text for readability */
+    font-weight: bold;
+    background-color: #61dafb; /* Light blue background */
+    padding: 0.5rem 1rem; /* Adequate padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+label {
+    margin-top: 1rem;
+    color: #ffffff; /* White text for readability */
+    font-size: 1.25rem; /* Font size for checkbox label */
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem; /* Space between checkbox and label text */
+}
